@@ -64,7 +64,7 @@ namespace kosar2004
             int x = 0;
             while (x < adatok.Count && !van)
             {
-                if (adatok[x].Idegen.Contains("Barcelona"))
+                if (adatok[x].Hazai.Contains("Barcelona"))
                 {
                     van = true; 
                 }
